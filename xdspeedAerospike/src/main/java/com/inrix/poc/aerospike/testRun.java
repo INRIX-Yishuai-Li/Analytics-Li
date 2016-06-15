@@ -60,5 +60,9 @@ public class testRun {
             System.out.println(ac.xdspeed[i]);
         }
 
+        for(int i = 0; i< 10; i+=3){
+            System.out.println(i);
+        }
+
     }
 }
