@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.inrix:inrix-web-1.8:DEVELOP-5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inrix/inrix-web-1.8/DEVELOP-5.0-SNAPSHOT/inrix-web-1.8-DEVELOP-5.0-20160520.195822-11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inrix/inrix-web-1.8/DEVELOP-5.0-SNAPSHOT/inrix-web-1.8-DEVELOP-5.0-20160520.195822-11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inrix/inrix-web-1.8/DEVELOP-5.0-SNAPSHOT/inrix-web-1.8-DEVELOP-5.0-20160520.195822-11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
