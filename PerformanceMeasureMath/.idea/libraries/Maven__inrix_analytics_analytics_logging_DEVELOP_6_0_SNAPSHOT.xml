@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: inrix-analytics:analytics-logging:DEVELOP-6.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/inrix-analytics/analytics-logging/DEVELOP-6.0-SNAPSHOT/analytics-logging-DEVELOP-6.0-20160608.213052-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/inrix-analytics/analytics-logging/DEVELOP-6.0-SNAPSHOT/analytics-logging-DEVELOP-6.0-20160608.213052-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/inrix-analytics/analytics-logging/DEVELOP-6.0-SNAPSHOT/analytics-logging-DEVELOP-6.0-20160608.213052-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

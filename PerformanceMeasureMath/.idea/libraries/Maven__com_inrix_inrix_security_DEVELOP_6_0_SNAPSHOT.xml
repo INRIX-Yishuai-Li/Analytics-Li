@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.inrix:inrix-security:DEVELOP-6.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inrix/inrix-security/DEVELOP-6.0-SNAPSHOT/inrix-security-DEVELOP-6.0-20160608.215036-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inrix/inrix-security/DEVELOP-6.0-SNAPSHOT/inrix-security-DEVELOP-6.0-20160608.215036-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/inrix/inrix-security/DEVELOP-6.0-SNAPSHOT/inrix-security-DEVELOP-6.0-20160608.215036-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

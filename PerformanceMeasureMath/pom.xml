@@ -8,5 +8,70 @@
     <artifactId>PerformanceMeasureMath</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <!--maven variable which points to your local repository -->
+        <!--<internal.repo.path>http://devopsjenkins:8081/artifactory/repo</internal.repo.path> -->
+        <internal.repo.path>http://devopsjenkins:8081/artifactory/libs-snapshot-local</internal.repo.path>
+        <speedarchive.version>DEVELOP-1.0-SNAPSHOT</speedarchive.version>
+    </properties>
+
+
+    <repositories>
+        <repository>
+            <id>Poc-Li-Aerospike</id>
+            <url>https://github.com/INRIX-Yishuai-Li/Analytics-Li/xdspeedAerospike/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>internal.repo</id>
+            <url>${internal.repo.path}</url>
+            <!-- use snapshot version -->
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+        <!--
+        <repository>
+            <id>com.inrix.maven</id>
+            <url>${internal.repo.path}</url>
+
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+        -->
+    </repositories>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>inrix-analytics</groupId>
+            <artifactId>Analytics-SpeedArchive-DAL</artifactId>
+            <version>${speedarchive.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.inrix.poc.aerospike</groupId>
+            <artifactId>xdspeed_aerospike</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- http://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <!-- http://mvnrepository.com/artifact/org.mockito/mockito-all -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
